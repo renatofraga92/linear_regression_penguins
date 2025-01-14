@@ -29,11 +29,17 @@ Kurtosis:                       2.871   Cond. No.                         798.
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
+![output1](https://github.com/user-attachments/assets/4cc8b1bc-7e57-4d26-b9bc-2a71fe168051)
+
+
 C:\Users\User\AppData\Local\Temp\ipykernel_19476\2580773058.py:40: FutureWarning: 
 
 The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
 
   sns.barplot(x='species', y='body_mass_g', hue='sex', data=test_data, ci=None)
+  
+![image](https://github.com/user-attachments/assets/5abad571-96db-43ec-bd08-086bde5524da)
+
 
 The predicted body mass is: 3627.68 g
 
